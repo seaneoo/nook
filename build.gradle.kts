@@ -1,5 +1,6 @@
 plugins {
 	alias(libs.plugins.kotlin.jvm)
+	alias(libs.plugins.kotlin.serialization)
 }
 
 group = "dev.seano"
@@ -11,6 +12,7 @@ repositories {
 
 dependencies {
 	implementation(libs.slf4j.simple)
+	implementation(libs.kotlinx.serialization.json)
 	implementation(libs.kord.core)
 	testImplementation(kotlin("test"))
 }
