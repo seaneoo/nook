@@ -1,0 +1,11 @@
+[versions]
+kotlin = "2.0.21"
+slf4j = "2.0.16"
+kord = "0.15.0"
+
+[libraries]
+slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "slf4j" }
+kord-core = { module = "dev.kord:kord-core", version.ref = "kord" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
