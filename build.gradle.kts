@@ -13,6 +13,7 @@ repositories {
 dependencies {
 	implementation(libs.slf4j.simple)
 	implementation(libs.kotlinx.serialization.json)
+	implementation(libs.kotlinx.datetime)
 	implementation(libs.kord.core)
 	testImplementation(kotlin("test"))
 }

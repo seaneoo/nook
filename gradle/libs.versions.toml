@@ -2,11 +2,13 @@
 kotlin = "2.0.21"
 slf4j = "2.0.16"
 kotlinx-serialization-json = "1.7.3"
+kotlinx-datetime = "0.6.1"
 kord = "0.15.0"
 
 [libraries]
 slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "slf4j" }
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization-json" }
+kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx-datetime" }
 kord-core = { module = "dev.kord:kord-core", version.ref = "kord" }
 
 [plugins]
